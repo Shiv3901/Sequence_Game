@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+
+// Prototyping and Unit testing version of the entire game
+
 struct ContentView: View {
     
     @State var maximum: CGFloat = 2
@@ -88,7 +91,7 @@ struct ContentView: View {
                         cond = true
                     }
                     
-                    animationAmount = create(counter: Float(animationAmount), cond: cond)
+                    animationAmount = create(counter: Float(animationAmount), reverse: cond)
                         
                     print(animationAmount)
                 }
@@ -110,7 +113,7 @@ struct ContentView: View {
                         cond1 = true
                     }
                     
-                    animationAmount1 = create(counter: Float(animationAmount1), cond: cond1)
+                    animationAmount1 = create(counter: Float(animationAmount1), reverse: cond1)
                         
                     print(animationAmount1)
                 }
@@ -134,7 +137,7 @@ struct ContentView: View {
                     cond2 = true
                 }
                 
-                animationAmount2 = create(counter: Float(animationAmount2), cond: cond2)
+                animationAmount2 = create(counter: Float(animationAmount2), reverse: cond2)
                     
                 print(animationAmount2)
             }
@@ -156,7 +159,7 @@ struct ContentView: View {
                         cond3 = true
                     }
                     
-                    animationAmount3 = create(counter: Float(animationAmount3), cond: cond3)
+                    animationAmount3 = create(counter: Float(animationAmount3), reverse: cond3)
                         
                     print(animationAmount3)
                 }
@@ -178,7 +181,7 @@ struct ContentView: View {
                         cond4 = true
                     }
                     
-                    animationAmount4 = create(counter: Float(animationAmount4), cond: cond4)
+                    animationAmount4 = create(counter: Float(animationAmount4), reverse: cond4)
                         
                     print(animationAmount4)
                 }
@@ -203,7 +206,7 @@ struct ContentView: View {
                     cond5 = true
                 }
                 
-                animationAmount5 = create(counter: Float(animationAmount5), cond: cond5)
+                animationAmount5 = create(counter: Float(animationAmount5), reverse: cond5)
                     
                 print(animationAmount5)
             }
@@ -229,7 +232,7 @@ struct ContentView: View {
                     cond6 = true
                 }
                 
-                animationAmount6 = create(counter: Float(animationAmount6), cond: cond6)
+                animationAmount6 = create(counter: Float(animationAmount6), reverse: cond6)
                     
                 print(animationAmount6)
             }
@@ -251,7 +254,7 @@ struct ContentView: View {
                     cond7 = true
                 }
                 
-                animationAmount7 = create(counter: Float(animationAmount7), cond: cond7)
+                animationAmount7 = create(counter: Float(animationAmount7), reverse: cond7)
                     
                 print(animationAmount7)
             }

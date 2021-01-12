@@ -18,7 +18,7 @@ struct TrialButton: View {
     }
     
     func increase() {
-        self.tapCounter += 1
+        self.tapCounter += 2
     }
     
     @State var condition = true

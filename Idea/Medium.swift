@@ -7,7 +7,10 @@
 
 import SwiftUI
 
-func creater2() -> [Float] {
+// average sequence level for the game
+
+// random sequence generator, each time the view is called
+func createrAverage() -> [Float] {
 
     var llist: [Float] = [0, 0, 0, 0, 0]
 
@@ -29,9 +32,9 @@ struct Medium: View {
     @State var animationDuration: Double = 0.50
     
     @State private var animationAmount: [CGFloat] = [1.25,1,1.25,1,1.25]
-    @State var cond: [Bool] = [false, false, true, false, false]
+    @State var cond: [Bool] = [false, true, false, true, false]
     
-    @State var llist: [Float] = creater2()
+    @State var llist: [Float] = createrAverage()
     
     @State var shouldHide: Bool = true
     
@@ -58,12 +61,12 @@ struct Medium: View {
                 
                 Button(String(Int(animationAmount[0]*12))) {
                     if animationAmount[0] == maximum {
-                        cond[0] = false
-                    } else if animationAmount[0] == minimum {
                         cond[0] = true
+                    } else if animationAmount[0] == minimum {
+                        cond[0] = false
                     }
                     
-                    animationAmount[0] = create(counter: Float(animationAmount[0]), cond: cond[0])
+                    animationAmount[0] = create(counter: Float(animationAmount[0]), reverse: cond[0])
                     
                     if animationAmount[0] == CGFloat(llist[0]) {
                         self.Cols[0] = self.targetColor
@@ -83,12 +86,12 @@ struct Medium: View {
                 
                 Button(String(Int(animationAmount[1]*12))) {
                     if animationAmount[1] == maximum {
-                        cond[1] = false
-                    } else if animationAmount[1] == minimum {
                         cond[1] = true
+                    } else if animationAmount[1] == minimum {
+                        cond[1] = false
                     }
                     
-                    animationAmount[1] = create(counter: Float(animationAmount[1]), cond: cond[1])
+                    animationAmount[1] = create(counter: Float(animationAmount[1]), reverse: cond[1])
                         
                     if animationAmount[1] == CGFloat(llist[1]) {
                         self.Cols[1] = self.targetColor
@@ -110,12 +113,12 @@ struct Medium: View {
             
             Button(String(Int(animationAmount[2]*12))) {
                 if animationAmount[2] == maximum {
-                    cond[2] = false
-                } else if animationAmount[2] == minimum {
                     cond[2] = true
+                } else if animationAmount[2] == minimum {
+                    cond[2] = false
                 }
                 
-                animationAmount[2] = create(counter: Float(animationAmount[2]), cond: cond[2])
+                animationAmount[2] = create(counter: Float(animationAmount[2]), reverse: cond[2])
                     
                 print(animationAmount[2])
                 
@@ -138,12 +141,12 @@ struct Medium: View {
                 
                 Button(String(Int(animationAmount[3]*12))) {
                     if animationAmount[3] == maximum {
-                        cond[3] = false
-                    } else if animationAmount[3] == minimum {
                         cond[3] = true
+                    } else if animationAmount[3] == minimum {
+                        cond[3] = false
                     }
                     
-                    animationAmount[3] = create(counter: Float(animationAmount[3]), cond: cond[3])
+                    animationAmount[3] = create(counter: Float(animationAmount[3]), reverse: cond[3])
                         
                     print(animationAmount[3])
                     
@@ -164,12 +167,12 @@ struct Medium: View {
                 
                 Button(String(Int(animationAmount[4]*12))) {
                     if animationAmount[4] == maximum {
-                        cond[4] = false
-                    } else if animationAmount[4] == minimum {
                         cond[4] = true
+                    } else if animationAmount[4] == minimum {
+                        cond[4] = false
                     }
                     
-                    animationAmount[4] = create(counter: Float(animationAmount[4]), cond: cond[4])
+                    animationAmount[4] = create(counter: Float(animationAmount[4]), reverse: cond[4])
                         
                     print(animationAmount[4])
                     

@@ -7,6 +7,8 @@
 
 import Foundation
 
+// for future implementation for storing usernames and highscores
+// of more than one players
 struct OneRound: Hashable, Codable {
     var llist: [Float]
     var level: String

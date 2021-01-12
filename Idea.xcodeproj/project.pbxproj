@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		583AC2E4259F465500408536 /* Trial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583AC2E3259F465500408536 /* Trial.swift */; };
-		583AC2E9259F54B700408536 /* TryingOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583AC2E8259F54B700408536 /* TryingOut.swift */; };
 		583AC2EE259F5AF800408536 /* Congratulations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583AC2ED259F5AF800408536 /* Congratulations.swift */; };
 		583AC2F3259F63FE00408536 /* Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583AC2F2259F63FE00408536 /* Levels.swift */; };
 		583AC2F8259F659D00408536 /* Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583AC2F7259F659D00408536 /* Easy.swift */; };
@@ -16,11 +14,7 @@
 		583AC302259F662B00408536 /* Hard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583AC301259F662B00408536 /* Hard.swift */; };
 		583AC307259F6D3100408536 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583AC306259F6D3100408536 /* Wave.swift */; };
 		58496F0625945156004DF2ED /* TestingIdea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58496F0525945156004DF2ED /* TestingIdea.swift */; };
-		58496F1325947EB6004DF2ED /* Winner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58496F1225947EB6004DF2ED /* Winner.swift */; };
-		58496F18259489B0004DF2ED /* TwoButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58496F17259489B0004DF2ED /* TwoButtons.swift */; };
 		58496F1D25971AD0004DF2ED /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58496F1C25971AD0004DF2ED /* Resources.swift */; };
-		58496F2225971BC0004DF2ED /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58496F2125971BC0004DF2ED /* GameData.swift */; };
-		58496FAD25996D6C004DF2ED /* connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58496FAC25996D6C004DF2ED /* connector.swift */; };
 		58496FB2259C070B004DF2ED /* Initial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58496FB1259C070A004DF2ED /* Initial.swift */; };
 		58892DA0259380FC00562E6B /* IdeaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58892D9F259380FC00562E6B /* IdeaApp.swift */; };
 		58892DA2259380FC00562E6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58892DA1259380FC00562E6B /* ContentView.swift */; };
@@ -28,7 +22,6 @@
 		58892DA7259380FE00562E6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58892DA6259380FE00562E6B /* Preview Assets.xcassets */; };
 		58892DB2259380FF00562E6B /* IdeaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58892DB1259380FF00562E6B /* IdeaTests.swift */; };
 		58892DBD259380FF00562E6B /* IdeaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58892DBC259380FF00562E6B /* IdeaUITests.swift */; };
-		58892DCE2593871700562E6B /* TrialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58892DCD2593871600562E6B /* TrialButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		583AC2E3259F465500408536 /* Trial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trial.swift; sourceTree = "<group>"; };
-		583AC2E8259F54B700408536 /* TryingOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryingOut.swift; sourceTree = "<group>"; };
 		583AC2ED259F5AF800408536 /* Congratulations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Congratulations.swift; sourceTree = "<group>"; };
 		583AC2F2259F63FE00408536 /* Levels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levels.swift; sourceTree = "<group>"; };
 		583AC2F7259F659D00408536 /* Easy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy.swift; sourceTree = "<group>"; };
@@ -60,11 +51,7 @@
 		58496F0525945156004DF2ED /* TestingIdea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingIdea.swift; sourceTree = "<group>"; };
 		58496F0A25946EAE004DF2ED /* trash.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = trash.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		58496F0E25946ECA004DF2ED /* testing Trash.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "testing Trash.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		58496F1225947EB6004DF2ED /* Winner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Winner.swift; sourceTree = "<group>"; };
-		58496F17259489B0004DF2ED /* TwoButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoButtons.swift; sourceTree = "<group>"; };
 		58496F1C25971AD0004DF2ED /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
-		58496F2125971BC0004DF2ED /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
-		58496FAC25996D6C004DF2ED /* connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connector.swift; sourceTree = "<group>"; };
 		58496FB1259C070A004DF2ED /* Initial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initial.swift; sourceTree = "<group>"; };
 		58892D9C259380FC00562E6B /* Idea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Idea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58892D9F259380FC00562E6B /* IdeaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaApp.swift; sourceTree = "<group>"; };
@@ -78,7 +65,6 @@
 		58892DB8259380FF00562E6B /* IdeaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdeaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58892DBC259380FF00562E6B /* IdeaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaUITests.swift; sourceTree = "<group>"; };
 		58892DBE259380FF00562E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58892DCD2593871600562E6B /* TrialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,14 +126,7 @@
 				583AC2FC259F65EE00408536 /* Medium.swift */,
 				583AC2F7259F659D00408536 /* Easy.swift */,
 				583AC2ED259F5AF800408536 /* Congratulations.swift */,
-				583AC2E3259F465500408536 /* Trial.swift */,
-				583AC2E8259F54B700408536 /* TryingOut.swift */,
-				58496FAC25996D6C004DF2ED /* connector.swift */,
 				58496F1C25971AD0004DF2ED /* Resources.swift */,
-				58496F2125971BC0004DF2ED /* GameData.swift */,
-				58496F17259489B0004DF2ED /* TwoButtons.swift */,
-				58496F1225947EB6004DF2ED /* Winner.swift */,
-				58892DCD2593871600562E6B /* TrialButton.swift */,
 				58496F0525945156004DF2ED /* TestingIdea.swift */,
 				58892DA3259380FE00562E6B /* Assets.xcassets */,
 				58892DA8259380FE00562E6B /* Info.plist */,
@@ -314,21 +293,14 @@
 				58496FB2259C070B004DF2ED /* Initial.swift in Sources */,
 				583AC2F3259F63FE00408536 /* Levels.swift in Sources */,
 				58892DA2259380FC00562E6B /* ContentView.swift in Sources */,
-				58496FAD25996D6C004DF2ED /* connector.swift in Sources */,
 				583AC2EE259F5AF800408536 /* Congratulations.swift in Sources */,
 				583AC2FD259F65EE00408536 /* Medium.swift in Sources */,
 				58496F0625945156004DF2ED /* TestingIdea.swift in Sources */,
 				58496F1D25971AD0004DF2ED /* Resources.swift in Sources */,
 				583AC302259F662B00408536 /* Hard.swift in Sources */,
-				58496F18259489B0004DF2ED /* TwoButtons.swift in Sources */,
-				58892DCE2593871700562E6B /* TrialButton.swift in Sources */,
-				583AC2E9259F54B700408536 /* TryingOut.swift in Sources */,
-				58496F2225971BC0004DF2ED /* GameData.swift in Sources */,
 				58892DA0259380FC00562E6B /* IdeaApp.swift in Sources */,
 				583AC307259F6D3100408536 /* Wave.swift in Sources */,
 				583AC2F8259F659D00408536 /* Easy.swift in Sources */,
-				58496F1325947EB6004DF2ED /* Winner.swift in Sources */,
-				583AC2E4259F465500408536 /* Trial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

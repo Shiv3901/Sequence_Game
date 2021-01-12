@@ -7,26 +7,7 @@
 
 import SwiftUI
 
-func create(counter: Float, cond: Bool) -> CGFloat {
-    
-    var count = counter
-    
-    func decrease() {
-        count -= 0.25
-    }
-    
-    func increase() {
-        count += 0.25
-    }
-    
-    if cond == true {
-        increase()
-    } else {
-        decrease()
-    }
-    
-    return CGFloat(count)
-}
+
 
 func creater() -> [Float] {
 
@@ -95,12 +76,12 @@ struct Hard: View {
                 
                 Button(String(Int(animationAmount[0]*12))) {
                     if animationAmount[0] == maximum - 1 {
-                        cond[0] = false
-                    } else if animationAmount[0] == minimum - 0.25{
                         cond[0] = true
+                    } else if animationAmount[0] == minimum - 0.25{
+                        cond[0] = false
                     }
                     
-                    animationAmount[0] = create(counter: Float(animationAmount[0]), cond: cond[0])
+                    animationAmount[0] = create(counter: Float(animationAmount[0]), reverse: cond[0])
                         
                     if animationAmount[0] == CGFloat(llist[0]) {
                         self.Cols[0] = self.targetColor
@@ -121,12 +102,12 @@ struct Hard: View {
                 
                 Button(String(Int(animationAmount[1]*12))) {
                     if animationAmount[1] == maximum - 1{
-                        cond[1] = false
-                    } else if animationAmount[1] == minimum - 0.25 {
                         cond[1] = true
+                    } else if animationAmount[1] == minimum - 0.25 {
+                        cond[1] = false
                     }
                     
-                    animationAmount[1] = create(counter: Float(animationAmount[1]), cond: cond[1])
+                    animationAmount[1] = create(counter: Float(animationAmount[1]), reverse: cond[1])
                         
                     if animationAmount[1] == CGFloat(llist[1]) {
                         self.Cols[1] = self.targetColor
@@ -149,12 +130,12 @@ struct Hard: View {
             
             Button(String(Int(animationAmount[2]*12))) {
                 if animationAmount[2] == maximum {
-                    cond[2] = false
-                } else if animationAmount[2] == minimum {
                     cond[2] = true
+                } else if animationAmount[2] == minimum {
+                    cond[2] = false
                 }
                 
-                animationAmount[2] = create(counter: Float(animationAmount[2]), cond: cond[2])
+                animationAmount[2] = create(counter: Float(animationAmount[2]), reverse: cond[2])
                     
                 if animationAmount[2] == CGFloat(llist[2]) {
                     self.Cols[2] = self.targetColor
@@ -175,12 +156,12 @@ struct Hard: View {
                 
                 Button(String(Int(animationAmount[3]*12))) {
                     if animationAmount[3] == maximum {
-                        cond[3] = false
-                    } else if animationAmount[3] == minimum {
                         cond[3] = true
+                    } else if animationAmount[3] == minimum {
+                        cond[3] = false
                     }
                     
-                    animationAmount[3] = create(counter: Float(animationAmount[3]), cond: cond[3])
+                    animationAmount[3] = create(counter: Float(animationAmount[3]), reverse: cond[3])
                         
                     if animationAmount[3] == CGFloat(llist[3]) {
                         self.Cols[3] = self.targetColor
@@ -201,12 +182,12 @@ struct Hard: View {
                 
                 Button(String(Int(animationAmount[4]*12))) {
                     if animationAmount[4] == maximum {
-                        cond[4] = false
-                    } else if animationAmount[4] == minimum {
                         cond[4] = true
+                    } else if animationAmount[4] == minimum {
+                        cond[4] = false
                     }
                     
-                    animationAmount[4] = create(counter: Float(animationAmount[4]), cond: cond[4])
+                    animationAmount[4] = create(counter: Float(animationAmount[4]), reverse: cond[4])
                         
                     if animationAmount[4] == CGFloat(llist[4]) {
                         self.Cols[4] = self.targetColor
@@ -230,12 +211,12 @@ struct Hard: View {
             
             Button(String(Int(animationAmount[5]*12))) {
                 if animationAmount[5] == maximum {
-                    cond[5] = false
-                } else if animationAmount[5] == minimum {
                     cond[5] = true
+                } else if animationAmount[5] == minimum {
+                    cond[5] = false
                 }
                 
-                animationAmount[5] = create(counter: Float(animationAmount[5]), cond: cond[5])
+                animationAmount[5] = create(counter: Float(animationAmount[5]), reverse: cond[5])
                     
                 if animationAmount[5] == CGFloat(llist[5]) {
                     self.Cols[5] = self.targetColor
@@ -260,12 +241,12 @@ struct Hard: View {
             
             Button(String(Int(animationAmount[6]*12))) {
                 if animationAmount[6] == maximum - 1{
-                    cond[6] = false
-                } else if animationAmount[6] == minimum - 0.25{
                     cond[6] = true
+                } else if animationAmount[6] == minimum - 0.25{
+                    cond[6] = false
                 }
                 
-                animationAmount[6] = create(counter: Float(animationAmount[6]), cond: cond[6])
+                animationAmount[6] = create(counter: Float(animationAmount[6]), reverse: cond[6])
                     
                 if animationAmount[6] == CGFloat(llist[6]) {
                     self.Cols[6] = self.targetColor
@@ -286,12 +267,12 @@ struct Hard: View {
             
             Button(String(Int(animationAmount[7]*12))) {
                 if animationAmount[7] == maximum - 1 {
-                    cond[7] = false
-                } else if animationAmount[7] == minimum - 0.25 {
                     cond[7] = true
+                } else if animationAmount[7] == minimum - 0.25 {
+                    cond[7] = false
                 }
                 
-                animationAmount[7] = create(counter: Float(animationAmount[7]), cond: cond[7])
+                animationAmount[7] = create(counter: Float(animationAmount[7]), reverse: cond[7])
                     
                 if animationAmount[7] == CGFloat(llist[7]) {
                     self.Cols[7] = self.targetColor
