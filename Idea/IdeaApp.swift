@@ -19,7 +19,7 @@ struct IdeaApp: App {
         
         // grouping the windows
         WindowGroup{
-            Initiator          // calling the levels view
+            Initiator          // calling the levels view through initiator
         }
         
     }
