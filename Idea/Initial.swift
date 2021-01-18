@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// view for start of the game for future use
 struct Initial: View {
     
     
