@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Idea
+@testable import Sequence_Game
 
 class IdeaTests: XCTestCase {
 

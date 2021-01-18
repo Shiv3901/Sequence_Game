@@ -4,10 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Idea.xcscheme_^#shared#^_</key>
+		<key>Sequence_Game.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>testing Trash (Playground) 1.xcscheme</key>
 		<dict>
@@ -28,7 +30,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>2</integer>
 		</dict>
 		<key>trash (Playground) 1.xcscheme</key>
 		<dict>
@@ -50,6 +52,24 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>58892D9B259380FC00562E6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>58892DAC259380FF00562E6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>58892DB7259380FF00562E6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -20,8 +20,8 @@
 		58892DA2259380FC00562E6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58892DA1259380FC00562E6B /* ContentView.swift */; };
 		58892DA4259380FE00562E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58892DA3259380FE00562E6B /* Assets.xcassets */; };
 		58892DA7259380FE00562E6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58892DA6259380FE00562E6B /* Preview Assets.xcassets */; };
-		58892DB2259380FF00562E6B /* IdeaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58892DB1259380FF00562E6B /* IdeaTests.swift */; };
-		58892DBD259380FF00562E6B /* IdeaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58892DBC259380FF00562E6B /* IdeaUITests.swift */; };
+		58892DBD259380FF00562E6B /* Sequence_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58892DBC259380FF00562E6B /* Sequence_GameUITests.swift */; };
+		58FCAC8D25B6555E0071582D /* Sequence_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58892DB1259380FF00562E6B /* Sequence_GameTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,17 +53,17 @@
 		58496F0E25946ECA004DF2ED /* testing Trash.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "testing Trash.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		58496F1C25971AD0004DF2ED /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		58496FB1259C070A004DF2ED /* Initial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initial.swift; sourceTree = "<group>"; };
-		58892D9C259380FC00562E6B /* Idea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Idea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58892D9C259380FC00562E6B /* Sequence_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sequence_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58892D9F259380FC00562E6B /* IdeaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaApp.swift; sourceTree = "<group>"; };
 		58892DA1259380FC00562E6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		58892DA3259380FE00562E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58892DA6259380FE00562E6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		58892DA8259380FE00562E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58892DAD259380FF00562E6B /* IdeaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdeaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		58892DB1259380FF00562E6B /* IdeaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaTests.swift; sourceTree = "<group>"; };
+		58892DAD259380FF00562E6B /* Sequence_GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sequence_GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58892DB1259380FF00562E6B /* Sequence_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequence_GameTests.swift; sourceTree = "<group>"; };
 		58892DB3259380FF00562E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58892DB8259380FF00562E6B /* IdeaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdeaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		58892DBC259380FF00562E6B /* IdeaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaUITests.swift; sourceTree = "<group>"; };
+		58892DB8259380FF00562E6B /* Sequence_GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sequence_GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58892DBC259380FF00562E6B /* Sequence_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequence_GameUITests.swift; sourceTree = "<group>"; };
 		58892DBE259380FF00562E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,9 +97,9 @@
 			children = (
 				58496F0E25946ECA004DF2ED /* testing Trash.playground */,
 				58496F0A25946EAE004DF2ED /* trash.playground */,
-				58892D9E259380FC00562E6B /* Idea */,
-				58892DB0259380FF00562E6B /* IdeaTests */,
-				58892DBB259380FF00562E6B /* IdeaUITests */,
+				58892D9E259380FC00562E6B /* Sequence_Game */,
+				58892DB0259380FF00562E6B /* Sequence_GameTests */,
+				58892DBB259380FF00562E6B /* Sequence_GameUITests */,
 				58892D9D259380FC00562E6B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,14 +107,14 @@
 		58892D9D259380FC00562E6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58892D9C259380FC00562E6B /* Idea.app */,
-				58892DAD259380FF00562E6B /* IdeaTests.xctest */,
-				58892DB8259380FF00562E6B /* IdeaUITests.xctest */,
+				58892D9C259380FC00562E6B /* Sequence_Game.app */,
+				58892DAD259380FF00562E6B /* Sequence_GameTests.xctest */,
+				58892DB8259380FF00562E6B /* Sequence_GameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58892D9E259380FC00562E6B /* Idea */ = {
+		58892D9E259380FC00562E6B /* Sequence_Game */ = {
 			isa = PBXGroup;
 			children = (
 				58892D9F259380FC00562E6B /* IdeaApp.swift */,
@@ -132,7 +132,7 @@
 				58892DA8259380FE00562E6B /* Info.plist */,
 				58892DA5259380FE00562E6B /* Preview Content */,
 			);
-			path = Idea;
+			path = Sequence_Game;
 			sourceTree = "<group>";
 		};
 		58892DA5259380FE00562E6B /* Preview Content */ = {
@@ -143,30 +143,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		58892DB0259380FF00562E6B /* IdeaTests */ = {
+		58892DB0259380FF00562E6B /* Sequence_GameTests */ = {
 			isa = PBXGroup;
 			children = (
-				58892DB1259380FF00562E6B /* IdeaTests.swift */,
+				58892DB1259380FF00562E6B /* Sequence_GameTests.swift */,
 				58892DB3259380FF00562E6B /* Info.plist */,
 			);
-			path = IdeaTests;
+			path = Sequence_GameTests;
 			sourceTree = "<group>";
 		};
-		58892DBB259380FF00562E6B /* IdeaUITests */ = {
+		58892DBB259380FF00562E6B /* Sequence_GameUITests */ = {
 			isa = PBXGroup;
 			children = (
-				58892DBC259380FF00562E6B /* IdeaUITests.swift */,
+				58892DBC259380FF00562E6B /* Sequence_GameUITests.swift */,
 				58892DBE259380FF00562E6B /* Info.plist */,
 			);
-			path = IdeaUITests;
+			path = Sequence_GameUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58892D9B259380FC00562E6B /* Idea */ = {
+		58892D9B259380FC00562E6B /* Sequence_Game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58892DC1259380FF00562E6B /* Build configuration list for PBXNativeTarget "Idea" */;
+			buildConfigurationList = 58892DC1259380FF00562E6B /* Build configuration list for PBXNativeTarget "Sequence_Game" */;
 			buildPhases = (
 				58892D98259380FC00562E6B /* Sources */,
 				58892D99259380FC00562E6B /* Frameworks */,
@@ -176,14 +176,14 @@
 			);
 			dependencies = (
 			);
-			name = Idea;
+			name = Sequence_Game;
 			productName = Idea;
-			productReference = 58892D9C259380FC00562E6B /* Idea.app */;
+			productReference = 58892D9C259380FC00562E6B /* Sequence_Game.app */;
 			productType = "com.apple.product-type.application";
 		};
-		58892DAC259380FF00562E6B /* IdeaTests */ = {
+		58892DAC259380FF00562E6B /* Sequence_GameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58892DC4259380FF00562E6B /* Build configuration list for PBXNativeTarget "IdeaTests" */;
+			buildConfigurationList = 58892DC4259380FF00562E6B /* Build configuration list for PBXNativeTarget "Sequence_GameTests" */;
 			buildPhases = (
 				58892DA9259380FF00562E6B /* Sources */,
 				58892DAA259380FF00562E6B /* Frameworks */,
@@ -194,14 +194,14 @@
 			dependencies = (
 				58892DAF259380FF00562E6B /* PBXTargetDependency */,
 			);
-			name = IdeaTests;
+			name = Sequence_GameTests;
 			productName = IdeaTests;
-			productReference = 58892DAD259380FF00562E6B /* IdeaTests.xctest */;
+			productReference = 58892DAD259380FF00562E6B /* Sequence_GameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		58892DB7259380FF00562E6B /* IdeaUITests */ = {
+		58892DB7259380FF00562E6B /* Sequence_GameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58892DC7259380FF00562E6B /* Build configuration list for PBXNativeTarget "IdeaUITests" */;
+			buildConfigurationList = 58892DC7259380FF00562E6B /* Build configuration list for PBXNativeTarget "Sequence_GameUITests" */;
 			buildPhases = (
 				58892DB4259380FF00562E6B /* Sources */,
 				58892DB5259380FF00562E6B /* Frameworks */,
@@ -212,9 +212,9 @@
 			dependencies = (
 				58892DBA259380FF00562E6B /* PBXTargetDependency */,
 			);
-			name = IdeaUITests;
+			name = Sequence_GameUITests;
 			productName = IdeaUITests;
-			productReference = 58892DB8259380FF00562E6B /* IdeaUITests.xctest */;
+			productReference = 58892DB8259380FF00562E6B /* Sequence_GameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -239,7 +239,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58892D97259380FC00562E6B /* Build configuration list for PBXProject "Idea" */;
+			buildConfigurationList = 58892D97259380FC00562E6B /* Build configuration list for PBXProject "Sequence_Game" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -252,9 +252,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58892D9B259380FC00562E6B /* Idea */,
-				58892DAC259380FF00562E6B /* IdeaTests */,
-				58892DB7259380FF00562E6B /* IdeaUITests */,
+				58892D9B259380FC00562E6B /* Sequence_Game */,
+				58892DAC259380FF00562E6B /* Sequence_GameTests */,
+				58892DB7259380FF00562E6B /* Sequence_GameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -308,7 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58892DB2259380FF00562E6B /* IdeaTests.swift in Sources */,
+				58FCAC8D25B6555E0071582D /* Sequence_GameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58892DBD259380FF00562E6B /* IdeaUITests.swift in Sources */,
+				58892DBD259380FF00562E6B /* Sequence_GameUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,12 +325,12 @@
 /* Begin PBXTargetDependency section */
 		58892DAF259380FF00562E6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 58892D9B259380FC00562E6B /* Idea */;
+			target = 58892D9B259380FC00562E6B /* Sequence_Game */;
 			targetProxy = 58892DAE259380FF00562E6B /* PBXContainerItemProxy */;
 		};
 		58892DBA259380FF00562E6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 58892D9B259380FC00562E6B /* Idea */;
+			target = 58892D9B259380FC00562E6B /* Sequence_Game */;
 			targetProxy = 58892DB9259380FF00562E6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,10 +458,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Idea/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sequence_Game/Preview Content\"";
 				DEVELOPMENT_TEAM = W884RAH7H3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Idea/Info.plist;
+				INFOPLIST_FILE = Sequence_Game/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -480,10 +480,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Idea/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sequence_Game/Preview Content\"";
 				DEVELOPMENT_TEAM = W884RAH7H3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Idea/Info.plist;
+				INFOPLIST_FILE = Sequence_Game/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -514,7 +514,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Idea.app/Idea";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sequence_Game.app/Sequence_Game";
 			};
 			name = Debug;
 		};
@@ -536,7 +536,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Idea.app/Idea";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sequence_Game.app/Sequence_Game";
 			};
 			name = Release;
 		};
@@ -583,7 +583,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58892D97259380FC00562E6B /* Build configuration list for PBXProject "Idea" */ = {
+		58892D97259380FC00562E6B /* Build configuration list for PBXProject "Sequence_Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58892DBF259380FF00562E6B /* Debug */,
@@ -592,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58892DC1259380FF00562E6B /* Build configuration list for PBXNativeTarget "Idea" */ = {
+		58892DC1259380FF00562E6B /* Build configuration list for PBXNativeTarget "Sequence_Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58892DC2259380FF00562E6B /* Debug */,
@@ -601,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58892DC4259380FF00562E6B /* Build configuration list for PBXNativeTarget "IdeaTests" */ = {
+		58892DC4259380FF00562E6B /* Build configuration list for PBXNativeTarget "Sequence_GameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58892DC5259380FF00562E6B /* Debug */,
@@ -610,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58892DC7259380FF00562E6B /* Build configuration list for PBXNativeTarget "IdeaUITests" */ = {
+		58892DC7259380FF00562E6B /* Build configuration list for PBXNativeTarget "Sequence_GameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58892DC8259380FF00562E6B /* Debug */,
